@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    height: 100%;
+    min-height: 100vh;
+    font-size: 20px;
+}
+
+a {
+    color: inherit;
+}
+
+.item {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: table;
+    background-color: #797D62;
+    min-width: 434px;
+    width: 100%;
+    min-height: 100px;
+}
+
+.header h1, h2 {
+    color: #F1DCA7;
+}
+
+#x, .header h2 {
+    display: table-cell;
+    margin: 0;
+    padding: 0 1em 0;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+#x {
+    max-width: 48%;
+}
+
+.header h2 {
+    max-width: 30%;
+    text-align: right;
+}
+
+.center {
+    display: table;
+    width: 100%;
+    height: calc(100vh - 200px);
+}
+
+.left-sidebar {
+    display: table-cell;
+    background-color: #9B9B7A;
+    padding: 0 1em 0 0;
+    word-break: break-word;
+    font-size: 20px;
+    min-width: 70px;
+    width: 15%;
+}
+
+.left-sidebar h3 {
+    margin: 1em 0 1em 1em ;
+}
+
+.left-sidebar ol {
+    padding: 0 0 0 2em;
+}
+
+.content {
+    display: table-cell;
+    width: 70%;
+    vertical-align: top;
+}
+
+.sub-header, .text {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.sub-header {
+    background-color: #D9AE94;
+    min-height: 50px;
+    text-align: center;
+    padding: 13px;
+}
+
+.sub-header a {
+    text-decoration: none;
+}
+
+.text {
+    min-height: calc(100% - 50px);
+    padding: 1em;
+    background-color: #F1DCA7;
+    text-align: justify;
+}
+
+.text img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+}
+
+.right-sidebar {
+    display: table-cell;
+    word-break: break-all;
+    font-size: 20px;
+    vertical-align: bottom;
+    min-width: 70px;
+    width: 15%;
+}
+
+.sidebar, .sidebar-footer {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    background-color: #9B9B7A;
+    padding: 1em 10px 1em 1em;
+    word-break: break-word;
+    min-height: 91%;
+}
+
+.sidebar ul {
+    padding: 0 1em 0 10px;
+}
+
+.sidebar-footer {
+    background-color: #D08C60;
+    min-height: 9%;
+    padding: 1em;
+    word-break: break-word;
+}
+
+.sidebar-footer i {
+    word-break: break-all;
+}
+
+.footer {
+    display: table;
+    background-color: #997B66;
+    min-width: 434px;
+    width: 100%;
+    min-height: 100px;
+}
+
+#y, .footer a {
+    display: table-cell;
+    margin: 0;
+    padding: 0 1em 0;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+#y {
+    max-width: 48%;
+    text-align: right;
+}
+
+.footer a {
+    max-width: 30%;
+}
