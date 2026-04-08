@@ -1,7 +1,7 @@
 # Lab Work #2 — CSS Layout Techniques
 
 **Course:** Web Application Development  
-**Year of Study:** 2 | **Semester:** 1 | **Year:** 2025
+**Year of Study:** 2 | **Semester:** 1 | **Year:** 2024
 
 **Author:** Maksym Poliukhovych
 
